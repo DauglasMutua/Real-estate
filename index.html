@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prestige Properties - Your Dream Home Awaits</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-logo">PRESTIGE</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="nav-toggle" id="navToggle">☰</button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Find Your Dream Home</h1>
+            <p class="hero-subtitle">LUXURY PROPERTIES TAILORED FOR YOU</p>
+            <p class="hero-description">Discover exclusive residential and commercial properties in the most sought-after locations. Let us help you find the perfect investment.</p>
+            <div class="cta-buttons">
+                <button class="btn btn-primary" onclick="document.getElementById('contact').scrollIntoView()">Explore Properties</button>
+                <button class="btn btn-secondary" onclick="document.getElementById('contact').scrollIntoView()">Get In Touch</button>
+            </div>
+        </div>
+        <div class="scroll-indicator">↓</div>
+    </section>
+
+    <!-- Offer Ticker -->
+    <section class="offer-banner">
+        <div class="offer-label">Exclusive Offers</div>
+        <div class="offer-ticker">
+            <div class="offer-track">
+                <span>Zero commission listings available this week</span>
+                <span>Premium waterfront homes now open for viewing</span>
+                <span>Free investment consultation for first-time buyers</span>
+                <span>Fast closing support for sellers with priority service</span>
+                <span>Zero commission listings available this week</span>
+                <span>Premium waterfront homes now open for viewing</span>
+                <span>Free investment consultation for first-time buyers</span>
+                <span>Fast closing support for sellers with priority service</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="section-title">
+            <h2>Our Services</h2>
+            <p>Comprehensive real estate solutions for buyers, sellers, and investors</p>
+        </div>
+
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-image">
+                    <img src="images/residential.jpg" alt="Residential Properties" onerror="this.style.display='none'">
+                    <div class="placeholder-icon" style="display: none;">🏠</div>
+                </div>
+                <div class="service-content">
+                    <h3>Residential Properties</h3>
+                    <p>Find your ideal family home or investment property from our curated selection of premium residential developments and standalone homes.</p>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="service-image">
+                    <img src="images/commercial.jpg" alt="Commercial Spaces" onerror="this.style.display='none'">
+                    <div class="placeholder-icon" style="display: none;">🏢</div>
+                </div>
+                <div class="service-content">
+                    <h3>Commercial Spaces</h3>
+                    <p>Premium office spaces, retail locations, and mixed-use properties designed for modern business needs and growth potential.</p>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="service-image">
+                    <img src="images/investment.jpg" alt="Investment Consultation" onerror="this.style.display='none'">
+                    <div class="placeholder-icon" style="display: none;">💰</div>
+                </div>
+                <div class="service-content">
+                    <h3>Investment Consultation</h3>
+                    <p>Expert guidance on property investments with market analysis, ROI projections, and portfolio diversification strategies.</p>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="service-image">
+                    <img src="images/legal.jpg" alt="Legal & Documentation" onerror="this.style.display='none'">
+                    <div class="placeholder-icon" style="display: none;">📋</div>
+                </div>
+                <div class="service-content">
+                    <h3>Legal & Documentation</h3>
+                    <p>Complete assistance with property documentation, title verification, and all legal procedures for worry-free transactions.</p>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="service-image">
+                    <img src="images/evaluation.jpg" alt="Property Evaluation" onerror="this.style.display='none'">
+                    <div class="placeholder-icon" style="display: none;">🔍</div>
+                </div>
+                <div class="service-content">
+                    <h3>Property Evaluation</h3>
+                    <p>Professional property valuation and market assessment to ensure you get the best price for buying or selling.</p>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="service-image">
+                    <img src="images/project.jpg" alt="Project Management" onerror="this.style.display='none'">
+                    <div class="placeholder-icon" style="display: none;">🏗️</div>
+                </div>
+                <div class="service-content">
+                    <h3>Project Management</h3>
+                    <p>Oversight of property development projects from planning through completion with transparent updates and quality assurance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="section-title" style="color: var(--light); margin-bottom: 4rem;">
+            <h2 style="color: var(--light);">Client Success Stories</h2>
+            <p style="color: rgba(248, 246, 243, 0.7);">Hear from our satisfied clients who found their perfect properties</p>
+        </div>
+
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p class="testimonial-text">"The team at Prestige made the entire buying process seamless. Their attention to detail and market knowledge helped us secure a beautiful home in our budget."</p>
+                <div class="testimonial-author">Sarah & Michael Chen</div>
+                <div class="testimonial-role">Home Buyers, 2024</div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p class="testimonial-text">"Exceptional service! They understood our investment goals perfectly and presented opportunities that aligned with our portfolio. Already seeing great returns."</p>
+                <div class="testimonial-author">James Patterson</div>
+                <div class="testimonial-role">Real Estate Investor</div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p class="testimonial-text">"I was impressed by their professional approach and transparency. The property management service has been outstanding. Highly recommend to anyone!"</p>
+                <div class="testimonial-author">Emma Rodriguez</div>
+                <div class="testimonial-role">Property Owner</div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p class="testimonial-text">"Finding our commercial space was stressful, but their team made it straightforward. The location is perfect for our growing business!"</p>
+                <div class="testimonial-author">David Kim</div>
+                <div class="testimonial-role">Business Owner</div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p class="testimonial-text">"Outstanding professionalism and dedication. They went above and beyond to help us navigate a complex property transaction. Worth every penny!"</p>
+                <div class="testimonial-author">Lisa Thompson</div>
+                <div class="testimonial-role">Home Seller</div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p class="testimonial-text">"Working with Prestige was a game-changer. Their market insights helped us sell our property for above asking price in just two weeks!"</p>
+                <div class="testimonial-author">Robert & Patricia Wilson</div>
+                <div class="testimonial-role">Property Sellers</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="contact-wrapper">
+            <div class="contact-section-title">
+                <h2>Get In Touch</h2>
+                <p>Ready to find your next property? Contact us today for a consultation</p>
+            </div>
+
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required placeholder="Tell us about your property needs..."></textarea>
+                </div>
+
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <a href="https://wa.me/1234567890?text=Hi%20Prestige%20Properties%20team%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20services." class="whatsapp-btn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.075-.124-.272-.198-.57-.347m-5.421-7.403h-.004a6.963 6.963 0 00-6.936 6.937c0 1.876.651 3.693 1.838 5.148l-1.957 5.713 5.84-1.937c1.501.823 3.212 1.26 4.976 1.26 6.521 0 11.829-5.308 11.829-11.829 0-3.16-1.234-6.132-3.473-8.368-2.24-2.236-5.211-3.469-8.369-3.469z"/>
+                        </svg>
+                        WhatsApp Us
+                    </a>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Prestige Properties. All rights reserved. | Transforming Dreams Into Homes</p>
+    </footer>
+
+    <!-- External JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>

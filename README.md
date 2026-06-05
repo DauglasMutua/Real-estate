@@ -1,6 +1,6 @@
 # Prestige Properties - Real Estate Landing Page
 
-A professional, luxury-focused real estate landing page with organized file structure.
+A professional, luxury-focused real estate landing page with a fully responsive design, smooth animations, and modern interactive features. Built with pure HTML5, CSS3, and vanilla JavaScript—no external dependencies required.
 
 ## 📁 Project Structure
 
@@ -96,26 +96,56 @@ Currently uses basic validation. For actual email functionality, integrate with 
 - SendGrid
 - Your own backend API
 
-## 📱 Responsive Design
+## 📱 Responsive Design & Device Support
 
 The website is fully responsive with breakpoints at:
 - **Desktop:** 1200px and above
-- **Tablet:** 768px - 1199px
+- **Tablet:** 768px - 1199px  
 - **Mobile:** 480px - 767px
 - **Small Mobile:** Below 480px
 
+All content remains properly constrained and never cuts off on any screen size.
+
 ## ✨ Features
 
-- ✅ Hero section with CTA buttons
-- ✅ Services showcase (6 services)
-- ✅ Testimonials grid (6 fake testimonials)
-- ✅ Contact form with validation
-- ✅ WhatsApp integration button
-- ✅ Mobile navigation toggle
-- ✅ Smooth animations
-- ✅ Fully responsive design
-- ✅ Accessibility-friendly
-- ✅ Fast loading (no external dependencies)
+- ✅ **Smooth Page Loading** - Fade-in animation with opacity transition on page load
+- ✅ **Fully Responsive Design** - Optimized for mobile (480px), tablet (768px), and desktop with no content cutoff
+- ✅ **Hero Section** - Compelling CTA buttons with smooth scroll interactions
+- ✅ **Service Cards** - 6 expandable service cards with "Read More/Less" dropdown functionality
+- ✅ **Offer Ticker Banner** - Animated ticker displaying exclusive offers
+- ✅ **Testimonials Grid** - 6 client testimonials with rating display
+- ✅ **Contact Form** - Form validation and submission handling with WhatsApp integration button
+- ✅ **Mobile Navigation** - Responsive hamburger menu toggle for small screens
+- ✅ **Professional Aesthetics** - Refined typography, subtle shadows, smooth hover effects
+- ✅ **Accessibility** - Semantic HTML5 structure with proper ARIA support
+- ✅ **Clean Code** - No inline event handlers or inline styles; proper event delegation
+- ✅ **Fast Loading** - Zero external dependencies; optimized for performance
+
+## 🎯 Recent Enhancements
+
+### Responsive Mobile Experience
+- Fixed layout constraints to prevent horizontal scrolling on mobile devices
+- Implemented `overflow-x: hidden` globally and `min-width: 0` on flex/grid children
+- Tested across all device sizes for seamless display
+
+### Interactive Service Cards
+- Service cards feature expandable "Read More/Less" dropdowns
+- Smooth max-height and opacity transitions for expand/collapse animation
+- Arrow indicator rotates to show expanded/collapsed state
+
+### Professional Design Polish
+- Enhanced typography with modern system font stack
+- Refined shadow effects for depth and elevation
+- Improved button hover states with subtle transforms
+- Better form input focus states with colored glow effects
+- Increased padding and spacing for better visual hierarchy
+
+### Code Quality Improvements
+- Removed all inline event handlers (onclick, onerror)
+- Converted to proper JavaScript event delegation
+- Eliminated inline styles in favor of CSS classes
+- Wrapped all DOM manipulations in DOMContentLoaded
+- Clean separation of concerns (HTML, CSS, JavaScript)
 
 ## 🔧 Adding More Sections
 
